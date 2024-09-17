@@ -1,0 +1,128 @@
+remark goes here
+MASS
+n7 14.010        0.530               same as n3 
+n8 14.010        0.530               same as n3 
+n9 14.010        0.530               same as n3 
+Ru 101.07        0.000               https://www.ciaaw.org/ruthenium.htm
+
+BOND
+n7-ca  486.30   1.340       same as c2-n3
+n7-cp  486.30   1.340       same as n7-ca
+n8-cp  486.30   1.340       same as c2-n3
+n8-ca  486.30   1.340       same as c2-n3
+n9-cp  486.30   1.340       same as c2-n3
+n9-ca  486.30   1.340       same as c2-n3
+n7-Ru  268.00   2.018       J. Phys. Chem. B 2009, 113, 7737-7744
+n8-Ru  268.00   2.018       J. Phys. Chem. B 2009, 113, 7737-7744
+n9-Ru  268.00   2.018       J. Phys. Chem. B 2009, 113, 7737-7744
+
+ANGLE
+n7-ca-ca   70.100     124.550   same as c2-c2-n3
+n7-ca-h4   51.286     118.695   Calculated with empirical approach
+n7-cp-ca   70.100     124.550   same as n7-ca-ca
+n7-cp-cp   70.100     124.550   same as n7-cp-ca
+n8-cp-ca   70.100     124.550   same as c2-c2-n3
+n8-cp-cp   70.100     124.550   same as n8-cp-ca
+n8-ca-ca   70.100     124.550   same as c2-c2-n3
+n8-ca-h4   51.286     118.695   Calculated with empirical approach
+n9-cp-ca   70.100     124.550   same as c2-c2-n3
+n9-cp-cp   70.100     124.550   same as n9-cp-ca
+n9-ca-ca   70.100     124.550   same as c2-c2-n3
+n9-ca-h4   51.286     118.695   Calculated with empirical approach
+ca-n7-cp   66.200     124.680   same as c2-n3-c2
+cp-n8-ca   66.200     124.680   same as c2-n3-c2
+cp-n9-ca   66.200     124.680   same as c2-n3-c2
+ca-n8-ca   66.200     124.680   same as c2-n3-c2
+ca-n7-ca   66.200     124.680   same as c2-n3-c2
+n7-Ru-n8   81.250      91.100   J. Phys. Chem. B 2009, 113, 7737-7744 (cis)
+n7-Ru-n9   81.250      91.100   J. Phys. Chem. B 2009, 113, 7737-7744 (cis)
+n8-Ru-n9   81.250      91.100   J. Phys. Chem. B 2009, 113, 7737-7744 (cis)
+n7-Ru-n7   24.490     180.000   J. Phys. Chem. B 2009, 113, 7737-7744 (trans)
+n8-Ru-n8   24.490     180.000   J. Phys. Chem. B 2009, 113, 7737-7744 (trans)
+n9-Ru-n9   24.490     180.000   J. Phys. Chem. B 2009, 113, 7737-7744 (trans)
+ca-n7-Ru   103.60     123.500   J. Phys. Chem. B 2009, 113, 7737-7744
+cp-n7-Ru   103.60     123.500   J. Phys. Chem. B 2009, 113, 7737-7744
+ca-n8-Ru   103.60     123.500   J. Phys. Chem. B 2009, 113, 7737-7744
+cp-n8-Ru   103.60     123.500   J. Phys. Chem. B 2009, 113, 7737-7744
+ca-n9-Ru   103.60     123.500   J. Phys. Chem. B 2009, 113, 7737-7744
+cp-n9-Ru   103.60     123.500   J. Phys. Chem. B 2009, 113, 7737-7744
+
+DIHE
+ca-ca-n7-cp   1    0.300       180.000           2.000      same as X -c2-n3-X 
+ca-cp-n7-ca   1    0.300       180.000           2.000      same as X -c2-n3-X 
+ca-n7-cp-cp   1    0.300       180.000           2.000      same as ca-cp-n7-ca
+ca-cp-n8-ca   1    0.300       180.000           2.000      same as X -c2-n3-X 
+cp-n7-ca-h4   1    0.300       180.000           2.000      same as X -c2-n3-X 
+cp-cp-n9-ca   1    0.300       180.000           2.000      same as X -c2-n3-X 
+ca-ca-n8-cp   1    0.300       180.000           2.000      same as X -c2-n3-X 
+ca-cp-n9-ca   1    0.300       180.000           2.000      same as X -c2-n3-X 
+cp-n8-ca-h4   1    0.300       180.000           2.000      same as X -c2-n3-X 
+ca-n8-cp-cp   1    0.300       180.000           2.000      same as ca-cp-n8-ca
+cp-n9-ca-ca   1    0.300       180.000           2.000      same as X -c2-n3-X 
+cp-n9-ca-h4   1    0.300       180.000           2.000      same as X -c2-n3-X 
+ca-n8-ca-ca   1    0.300       180.000           2.000      same as X -c2-n3-X 
+ca-n7-ca-ca   1    0.300       180.000           2.000      same as X -c2-n3-X 
+ca-n8-ca-h4   1    0.300       180.000           2.000      same as X -c2-n3-X 
+ca-n7-ca-h4   1    0.300       180.000           2.000      same as X -c2-n3-X 
+ca-ca-cd-cc   1    0.700       180.000           2.000      same as X -c2-ca-X 
+ca-ca-cd-nd   1    0.700       180.000           2.000      same as X -c2-ca-X 
+n7-Ru-n8-cp   1    0.250       180.000           4.000      J. Phys. Chem. B 2009, 113, 7737-7744 (cis only)
+n7-Ru-n8-ca   1    0.250       180.000           4.000      J. Phys. Chem. B 2009, 113, 7737-7744 (cis only)
+n7-Ru-n9-cp   1    0.250       180.000           4.000      J. Phys. Chem. B 2009, 113, 7737-7744 (cis only)
+n7-Ru-n9-ca   1    0.250       180.000           4.000      J. Phys. Chem. B 2009, 113, 7737-7744 (cis only)
+n8-Ru-n7-cp   1    0.250       180.000           4.000      J. Phys. Chem. B 2009, 113, 7737-7744 (cis only)
+n8-Ru-n7-ca   1    0.250       180.000           4.000      J. Phys. Chem. B 2009, 113, 7737-7744 (cis only)
+n8-Ru-n9-cp   1    0.250       180.000           4.000      J. Phys. Chem. B 2009, 113, 7737-7744 (cis only)
+n8-Ru-n9-ca   1    0.250       180.000           4.000      J. Phys. Chem. B 2009, 113, 7737-7744 (cis only)
+n9-Ru-n7-cp   1    0.250       180.000           4.000      J. Phys. Chem. B 2009, 113, 7737-7744 (cis only)
+n9-Ru-n7-ca   1    0.250       180.000           4.000      J. Phys. Chem. B 2009, 113, 7737-7744 (cis only)
+n9-Ru-n8-cp   1    0.250       180.000           4.000      J. Phys. Chem. B 2009, 113, 7737-7744 (cis only)
+n9-Ru-n8-ca   1    0.250       180.000           4.000      J. Phys. Chem. B 2009, 113, 7737-7744 (cis only)
+ca-ca-n7-Ru   1    1.410       180.000           1.000      J. Phys. Chem. B 2009, 113, 7737-7744
+ca-ca-n8-Ru   1    1.410       180.000           1.000      J. Phys. Chem. B 2009, 113, 7737-7744
+ca-ca-n9-Ru   1    1.410       180.000           1.000      J. Phys. Chem. B 2009, 113, 7737-7744
+ca-ca-n7-Ru   1    1.210         0.000          -2.000      J. Phys. Chem. B 2009, 113, 7737-7744
+ca-ca-n8-Ru   1    1.210         0.000          -2.000      J. Phys. Chem. B 2009, 113, 7737-7744
+ca-ca-n9-Ru   1    1.210         0.000          -2.000      J. Phys. Chem. B 2009, 113, 7737-7744
+ca-n7-Ru-n7   1    0.000         0.000           0.000      artificial term (no trans torsional term needed)
+n7-Ru-n7-ca   1    0.000         0.000           0.000      artificial term (no trans torsional term needed)
+ca-n8-Ru-n8   1    0.000         0.000           0.000      artificial term (no trans torsional term needed)
+ca-n9-Ru-n9   1    0.000         0.000           0.000      artificial term (no trans torsional term needed)
+cp-n7-Ru-n7   1    0.000         0.000           0.000      artificial term (no trans torsional term needed)
+cp-n8-Ru-n8   1    0.000         0.000           0.000      artificial term (no trans torsional term needed)
+cp-n9-Ru-n9   1    0.000         0.000           0.000      artificial term (no trans torsional term needed)
+Ru-n7-ca-h4   1    5.270       180.000           2.000      J. Phys. Chem. B 2009, 113, 7737-7744
+Ru-n8-ca-h4   1    5.270       180.000           2.000      J. Phys. Chem. B 2009, 113, 7737-7744
+Ru-n9-ca-h4   1    5.270       180.000           2.000      J. Phys. Chem. B 2009, 113, 7737-7744
+ca-cp-n7-Ru   1    1.410       180.000           1.000      J. Phys. Chem. B 2009, 113, 7737-7744
+ca-cp-n8-Ru   1    1.410       180.000           1.000      J. Phys. Chem. B 2009, 113, 7737-7744
+ca-cp-n9-Ru   1    1.410       180.000           1.000      J. Phys. Chem. B 2009, 113, 7737-7744
+cp-cp-n7-Ru   1    1.210         0.000           2.000      changed -2.000 to 2.0000
+cp-cp-n8-Ru   1    1.210         0.000           2.000      changed -2.000 to 2.0000
+cp-cp-n9-Ru   1    1.210         0.000           2.000      changed -2.000 to 2.0000
+
+IMPROPER
+ca-ca-ca-ha         1.1          180.0         2.0          General improper torsional angle (2 general atom types)
+ca-cp-ca-ha         1.1          180.0         2.0          General improper torsional angle (2 general atom types)
+ca-h4-ca-n7         1.1          180.0         2.0          Using default value
+ca-cp-cp-n7         1.1          180.0         2.0          Using default value
+ca-cp-cp-n8         1.1          180.0         2.0          Using default value
+ca-h4-ca-n8         1.1          180.0         2.0          Using default value
+ca-cp-cp-n9         1.1          180.0         2.0          Using default value
+ca-h4-ca-n9         1.1          180.0         2.0          Using default value
+ca-ca-ca-n8         1.1          180.0         2.0          Using default value
+ca-ca-ca-n7         1.1          180.0         2.0          Using default value
+ca-ca-ca-ca         1.1          180.0         2.0          Using default value
+ca-ca-ca-cd         1.1          180.0         2.0          Using default value
+cd-h4-cc-na         1.1          180.0         2.0          Using default value
+ca-cc-cd-nd         1.1          180.0         2.0          Using default value
+c3-cc-na-nc         1.1          180.0         2.0          Using default value
+
+NONBON
+  n7          1.8240  0.1700             same as n3 
+  n8          1.8240  0.1700             same as n3 
+  n9          1.8240  0.1700             same as n3 
+  Ru          2.9630  0.5600             J. Phys. Chem. B 2009, 113, 7737-7744
+
+
+
